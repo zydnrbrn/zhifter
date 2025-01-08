@@ -3,7 +3,7 @@
     "description": "a Laravel and Inertia.js CRUD Generator",
     "type": "library",
     "require": {
-        "laravel/laravel": "^11.5",
+        "laravel/framework": "^11.5",
         "inertiajs/inertia-laravel": "^2.0"
     },
     "license": "MIT",
@@ -18,5 +18,5 @@
             "email": "zidanreborn@gmail.com"
         }
     ],
-    "minimum-stability": "beta"
+    "minimum-stability": "stable"
 }

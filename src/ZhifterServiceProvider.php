@@ -3,6 +3,8 @@
 namespace Zydnrbrn\Zhifter;
 
 use Illuminate\Support\ServiceProvider;
+use Zydnrbrn\Zhifter\Console\Commands\ZhifterCommand;
+use Zydnrbrn\Zhifter\Console\Commands\ZhifterConnectionTestCommand;
 
 class ZhifterServiceProvider extends ServiceProvider
 {
@@ -10,7 +12,8 @@ class ZhifterServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                // TODO: Call our command file here
+                ZhifterCommand::class,
+                ZhifterConnectionTestCommand::class
             ]);
 
             $this->publishes([

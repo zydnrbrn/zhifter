@@ -1,0 +1,22 @@
+{
+    "name": "zydnrbrn/zhifter",
+    "description": "a Laravel and Inertia.js CRUD Generator",
+    "type": "library",
+    "require": {
+        "laravel/laravel": "^11.5",
+        "inertiajs/inertia-laravel": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zydnrbrn\\Zhifter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zydnrbrn",
+            "email": "zidanreborn@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}

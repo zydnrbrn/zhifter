@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\{{ModelName}};
+use Illuminate\Http\Request;
+
+class {{ModelName}}Controller extends Controller
+{
+    public function index()
+    {
+        return {{ModelName}}::all();
+    }
+}

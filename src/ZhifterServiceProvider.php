@@ -20,7 +20,7 @@ class ZhifterServiceProvider extends ServiceProvider
                 __DIR__ . '/stubs' => resource_path('stubs'),
             ]);
 
-            $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
+            $this->loadRoutesFrom(base_path('routes/web.php'));
         }
     }
 
